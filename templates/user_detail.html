@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>详情页</title>
+    <script>
+        var login_flag = {{ flag|safe }};
+        var login_name = '{{ name|safe }}';
+        var editor_check = '{{ check|safe }}';
+    </script>
+    <script src="../static/js/jquery-3.5.1.js" type="text/javascript"></script>
+    <script src="../static/js/login_flag.js" type="text/javascript"></script>
+    <script src="../static/js/user_detail.js" type="text/javascript"></script>
+    <script src="../static/js/register.js" type="text/javascript"></script>
+    <link href="../static/css/index.css" rel="stylesheet"/>
+</head>
+<body onload="load_data()">
+<div id="main_1">
+    <div id="l1"><img src="../static/img/title.jpg" style="height: 50px;width: 50px" onclick="window.location.href='http://127.0.0.1:8000/'"></div>
+    <div id="c1">待开发</div>
+    <div id="r1">
+    </div>
+</div>
+<div id="detail_2">
+    <div id="detail_l">
+        <div id="detail_l_img"><img src="../static/img/login.png" style="height: 50px;width: 50px">个人头像</div>
+        <div id="detail_l_base" class="detail_l" onclick="detail_l_list(1)">基本信息</div>
+        <div id="detail_l_blog" class="detail_l" onclick="detail_l_list(2)">我的博文</div>
+        <div id="detail_l_fan" class="detail_l" onclick="detail_l_list(3)">粉丝</div>
+        <div id="detail_l_love" class="detail_l" onclick="detail_l_list(4)">收藏</div>
+    </div>
+    <div id="detail_c">
+    </div>
+    <div id="detail_r">待开发</div>
+</div>
+</body>
+</html>

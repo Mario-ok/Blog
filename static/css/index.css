@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#main_1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15%;
+    width: 100%;
+    background: aqua;
+}
+
+#l1{
+    float: left;
+    width: 16%;
+    height: 65%;
+    font-size: 24px;
+    text-align: center;
+    margin: 2%;
+    background: #333;
+}
+#c1{
+    float: left;
+    width: 46%;
+    height: 65%;
+    font-size: 24px;
+    margin: 2%;
+    background: #333333;
+}
+#r1{
+    float: left;
+    width: 26%;
+    height: 65%;
+    margin: 2%;
+    font-size: 24px;
+    background: #333333;
+}
+#head_img{
+    float: left;
+    margin-top: 12px;
+    margin-left: 8px;
+    width: 40px;
+    height: 40px;
+}
+#login{
+    float: left;
+    width: 60px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+#register{
+    float: left;
+    width: 60px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+#user{
+    float: left;
+    width: 60px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+#quit{
+    float: left;
+    width: 60px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+#main_2{
+    position: absolute;
+    top: 15%;
+    left: 0;
+    height: 85%;
+    width: 100%;
+    background: pink;
+}
+#detail_l{
+    position: absolute;
+    left: 0;
+    top: 15%;
+    width: 20%;
+    height: 85%;
+    background: orangered;
+}
+#detail_c{
+    position: absolute;
+    left: 20%;
+    top: 15%;
+    width: 60%;
+    height: 85%;
+    background: red;
+}
+#detail_r{
+    position: absolute;
+    right: 0;
+    top: 15%;
+    width: 20%;
+    background: yellow;
+    height: 85%;
+}
+#detail_l_img{
+    width: 100%;
+    height: 32%;
+    background: #333333;
+}
+.detail_l{
+    width: 100%;
+    height: 10%;
+    background: #999;
+    border-bottom: #333333 solid 1px;
+}
+#detail_c_head{
+    float: left;
+    width: 30%;
+    height: 100%;
+    background: bisque;
+}
+#detail_c_right{
+    float: left;
+    width: 70%;
+    height: 100%;
+    background: white;
+}
